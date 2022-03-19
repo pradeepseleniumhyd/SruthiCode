@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.329">
+    <testcase classname="To verify Login functionalities for different users" name="To verify multiple data" time="0.025">
+        <system-out><![CDATA[Given user opens the browser................................................passed
+When user enters the url....................................................passed
+Then Loginpage is displayed.................................................passed
+When user enters the value username and password............................passed
+Then user clicks on login button............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

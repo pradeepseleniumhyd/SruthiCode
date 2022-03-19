@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.599">
+    <testcase classname="To  verify FB Login page" name="To verify fb url" time="0.269">
+        <failure message="expected:&lt;[S]ruthi&gt; but was:&lt;[s]ruthi&gt;" type="junit.framework.ComparisonFailure"><![CDATA[Given user opens the browser................................................passed
+When user enters the url....................................................passed
+Then user verifies the current url and title of the page....................passed
+When user enters username and password in textbox...........................failed
+And user clicks on signin button............................................skipped
+Then user verifies Home page is displayed...................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[S]ruthi> but was:<[s]ruthi>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinitions.FBLoginStepDef.user_enters_username_and_password_in_textbox(FBLoginStepDef.java:27)
+	at ✽.user enters username and password in textbox(file:///C:/Users/LENOVO/Documents/code/ToolsQA/src/test/java/features/FbLogin.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>
